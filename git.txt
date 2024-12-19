@@ -1,0 +1,13 @@
+git clone repository-url
+git init
+git checkout -b branch-name
+git remote add some-name repository-url
+git add .
+git status
+git reset
+git commit -m "message"
+git push some-name branch-name
+git branch
+git checkout branch-name
+git checkout -b branch-name
+git merge branch-name
