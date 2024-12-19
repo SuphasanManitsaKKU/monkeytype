@@ -1,0 +1,18 @@
+docker ps -a
+docker images
+docker build -t image-name:latest .
+docker stop container-name-or-id
+docker rm container-name-or-id
+docker rm -f container-name-or-id
+docker rmi image-name:latest
+docker-compose up --build -d
+kubectl cluster-info
+kubectl apply -f file-name.yaml
+kubectl delete -f file-name.yaml
+kubectl get nodes
+kubectl get pods
+kubectl get deployments
+kubectl get services
+kubectl delete pod pod-name
+kubectl delete service service-name
+kubectl delete deployment deployment-name
